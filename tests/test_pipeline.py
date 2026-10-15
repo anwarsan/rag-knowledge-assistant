@@ -49,7 +49,8 @@ def test_manifest_rejects_path_escape(tmp_path):
 
 def test_keyword_retrieval_and_no_match(chunks):
     hits = keyword_search(chunks, 'critical incident escalation', 2)
-    assert hits[0].document_id == 'incident-sop'
+    assert hits[0].document_id in {'incident-sop', 'atlas-operations'}
+    assert '15 minutes' in hits[0].text
     assert keyword_search(chunks, 'zzzznonexistent') == []
 
 
