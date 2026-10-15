@@ -1,0 +1,6 @@
+[
+  {"document_id":"incident-sop","version":"2.0","status":"active","path":"documents/incident-sop.md"},
+  {"document_id":"communications","version":"1.0","status":"active","path":"documents/communications.md"},
+  {"document_id":"database-runbook","version":"1.0","status":"active","path":"documents/database-runbook.md"},
+  {"document_id":"incident-sop","version":"1.0","status":"archived","path":"documents/incident-sop-archived.md"}
+]

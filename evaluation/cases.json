@@ -1,0 +1,7 @@
+[
+  {"id":"direct","question":"What is the critical incident escalation procedure?","expected_documents":["incident-sop"],"review":"Escalate after 15 minutes to incident commander and service owner; cite current v2.0."},
+  {"id":"paraphrase","question":"A critical service incident remains unresolved. Who should support page?","expected_documents":["incident-sop"],"review":"Retrieve escalation procedure despite different wording; cite supporting passage."},
+  {"id":"multi","question":"During a critical incident, when should we escalate and how often should stakeholder updates be posted?","expected_documents":["incident-sop","communications"],"review":"Combine 15-minute escalation with 20-minute stakeholder updates; cite both documents."},
+  {"id":"outdated","question":"Is waiting 30 minutes before critical incident escalation still the current procedure?","expected_documents":["incident-sop"],"review":"Use active v2.0, explain 15 minutes. Archived v1.0 must not enter retrieved context."},
+  {"id":"unknown","question":"What is the database recovery point objective?","expected_documents":["database-runbook"],"review":"Withhold a numeric answer because the runbook explicitly omits RPO. Human-check appropriate abstention."}
+]
